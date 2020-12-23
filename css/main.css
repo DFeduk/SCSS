@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+html, body {
+  min-height: 100%; }
+
+body {
+  background: linear-gradient(to bottom, #9dc0f2 0%, #6e87aa 33%, #344051 75%, #020303 100%);
+  display: flex;
+  flex-direction: column; }
+
+.block-wrapper {
+  width: 660px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.block {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 50px; }
+
+.login,
+.profile,
+.download {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 13px; }
+
+.location {
+  height: 145px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 13px; }
+
+.login h2 {
+  background: #6a92d6;
+  color: white;
+  font-size: 20px;
+  padding: 23px 0;
+  width: 100%;
+  border-radius: 13px 13px 0 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+.profile h2 {
+  background: #9c9077;
+  color: white;
+  font-size: 20px;
+  padding: 23px 0;
+  width: 100%;
+  border-radius: 13px 13px 0 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+.download h2 {
+  background: #4d8f71;
+  color: white;
+  font-size: 20px;
+  padding: 23px 0;
+  width: 100%;
+  border-radius: 13px 13px 0 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+.location h2 {
+  background: #a6a075;
+  color: white;
+  font-size: 20px;
+  padding: 23px 0;
+  width: 100%;
+  border-radius: 13px 13px 0 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+.btn-1 {
+  background: #bfd0e6;
+  color: #8f5757;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 10px;
+  padding: 21px;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 15px; }
+
+.btn-2 {
+  background: #678ccb;
+  color: #711212;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 10px;
+  padding: 21px;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 15px; }
+
+.btn-3 {
+  background: #74aed7;
+  color: #e3f73a;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 10px;
+  padding: 21px;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 15px; }
+
+.btn-4 {
+  background: #64a88e;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 10px;
+  padding: 21px;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 15px; }
+
+.btn-5 {
+  background: #bfd0e6;
+  color: #8f5757;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+.btn-6 {
+  background: #678ccb;
+  color: #711212;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+.btn-7 {
+  background: #74aed7;
+  color: #e3f73a;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+.btn-8 {
+  background: #64a88e;
+  color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 8px; }

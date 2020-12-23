@@ -1,0 +1,34 @@
+@mixin btn-big ($bg,$color,) {
+    background: $bg;
+    color: $color;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 10px;
+    padding: 21px;
+    width: 80%;
+    font-size: $font-lg;
+    border-radius: $border-lg;
+}
+@mixin btn-small ($bg,$color) {
+    background: $bg;
+    color: $color;
+    border-radius: $border-medium;
+    width: 60%;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-size: $font-medium;
+    margin-bottom: $margin-bs;
+}
+@mixin title ($bg) {
+    background: $bg;
+    color: white;
+    font-size: $font-lg;
+    padding: 23px 0;
+    width: $blockWidth;
+    border-radius: 13px 13px 0 0;
+    margin-bottom: $margin-bl;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}

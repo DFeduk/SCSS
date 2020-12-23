@@ -1,0 +1,71 @@
+html, body {
+    min-height: 100%;
+}
+ body {
+    background: $backgroundColor;
+    display: flex;
+    flex-direction: column;
+}
+.block-wrapper {
+    width: 660px;
+    margin: 60px auto;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.login,
+.profile,
+.download {
+    height: $blockHeight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.1);
+    border-radius: 13px;
+}
+.location {
+    height: 145px;
+    background: rgba( 255, 255, 255, 0.1);
+    border-radius: 13px;
+}
+.login h2 {
+    @include title ($backgroundTitleOne)
+}
+.profile h2 {
+    @include title ($backgroundTitleTwo)
+}
+.download h2 {
+    @include title ($backgroundTitleThree)
+}
+.location h2 {
+    @include title ($backgroundTitleFour)
+}
+.btn-1 {
+    @include btn-big ($backgroundBtnOne,$textBtnOne);
+}
+.btn-2 {
+    @include btn-big ($backgroundBtnTwo, $textBtnTwo)
+}
+.btn-3 {
+    @include btn-big ($backgroundBtnThree, $textBtnThree)
+}
+.btn-4 {
+    @include btn-big ($backgroundBtnFour,$textBtnFour)
+}
+.btn-5 {
+    @include btn-small ($backgroundBtnOne, $textBtnOne)
+}
+.btn-6{
+    @include btn-small ($backgroundBtnTwo, $textBtnTwo)
+}
+.btn-7 {
+    @include btn-small ($backgroundBtnThree, $textBtnThree) 
+}
+.btn-8 {
+    @include btn-small ($backgroundBtnFour, $textBtnFour)
+}
